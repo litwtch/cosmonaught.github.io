@@ -60,7 +60,6 @@ of those sections to manage the look and feel of the site. */
 }
 
 /*Intro section */ 
-
 .header{ 
     color: #1a1a1a
 }
@@ -69,8 +68,14 @@ of those sections to manage the look and feel of the site. */
     color: #000000
 }
 
-/* social media */ 
+/*profile image*/
+.profile{ 
+    width: 15%;
+    min-width: 35px;
+    height: auto;
+}
 
+/* social media */ 
 #social li {
     display: inline;
     padding: 5px;
