@@ -77,7 +77,7 @@ of those sections to manage the look and feel of the site. */
 
 /* social media */ 
 #social li {
-    display: inline;
+    display: center;
     padding: 5px;
     margin: auto;
 }
