@@ -62,9 +62,23 @@ of those sections to manage the look and feel of the site. */
 /*Intro section */ 
 
 .header{ 
-    color: #42f4c2
+    color: #1a1a1a
 }
 
 .quote{ 
-    color: #ac41f4
+    color: #000000
+}
+
+/* social media */ 
+
+#social li {
+    display: inline;
+    padding: 5px;
+    margin: auto;
+}
+
+.icon {
+    width: 7%;
+    min-width: 35px;
+    height: auto;
 }
