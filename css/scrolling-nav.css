@@ -62,14 +62,14 @@ of those sections to manage the look and feel of the site. */
 /*Intro section */ 
 
 .header{ 
-    color: #1a1a1a
+    color: #42f4c2
 }
 
 .quote{ 
-    color: #ffffff
+    color: #ac41f4
 }
 
-/* Social Icons Stuff */
+/* social stuff in intro section */
 
 .table {
 	padding-right: 40px;
