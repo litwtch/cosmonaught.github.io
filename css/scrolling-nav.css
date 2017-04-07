@@ -68,15 +68,3 @@ of those sections to manage the look and feel of the site. */
 .quote{ 
     color: #ac41f4
 }
-
-/* icon stuff */ 
-.icon {
-    width: 7%;
-    min-width: 35px;
-    height: auto;
-}
-
-.icon:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
