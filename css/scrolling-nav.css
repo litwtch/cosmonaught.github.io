@@ -95,7 +95,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .icon {
-    width: 5%;
-    min-width: 35px;
+    width: 15%;
+    min-width: 50px;
     height: auto;
 }
