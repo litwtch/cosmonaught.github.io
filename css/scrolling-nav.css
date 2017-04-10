@@ -87,6 +87,7 @@ of those sections to manage the look and feel of the site. */
     min-width: 35px;
     height: auto;
 }
+
 /*Certifications list */
 #certs li {
     display: inline;
@@ -95,7 +96,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .icon {
-    width: 15%;
-    min-width: 50px;
+    width: 5%;
+    min-width: 30px;
     height: auto;
 }
