@@ -69,10 +69,12 @@ of those sections to manage the look and feel of the site. */
 }
 
 /*profile image*/
-.profile{ 
-    width: 15%;
-    min-width: 35px;
-    height: auto;
+.profile{
+	width: 30%;
+    min-width: 200px;
+	height: auto;
+	display: block;
+	margin: auto;
 }
 
 /* social media */ 
@@ -84,7 +86,7 @@ of those sections to manage the look and feel of the site. */
 
 .icon {
     width: 5%;
-    min-width: 35px;
+    min-width: 45px;
     height: auto;
 }
 
