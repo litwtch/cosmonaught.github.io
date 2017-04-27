@@ -30,19 +30,38 @@ html {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
+/* Individual Navigation Buttons */
+/*navigation buttons*/ 
+
+#home-btn:hover {
+    background-color: #0B132B;
+}
+
+#about-btn:hover {
+    background-color: #0B132B;
+}
+
+#portfolio-btn:hover {
+    background-color: #0B132B;
+}
+
+#projects-btn:hover {
+    background-color: #0B132B;
+}
+
 
 .intro-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #F7D6E0;
+    background-image: url("images/landscape.png");
 }
 
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFF7F6;
+    background: #ffffff;
 }
 
 .work-section {
@@ -56,7 +75,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFF7F6;
+    background: #ffffff;
 }
 
 /*Intro section */ 
