@@ -54,7 +54,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background-image: url("quartz.jpg");
+    background-image: url("planephoto.png");
     font: 20px arial, sans-serif, "white";
 }
 
@@ -70,7 +70,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background-image: url("quartz.jpg");
+    background: #ffffff;
     font: 20px arial, sans-serif, "white";
 }
 
