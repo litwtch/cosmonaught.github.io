@@ -55,6 +55,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background-image: url("cityscape.png");
+    font: 20px arial, sans-serif;
 }
 
 .about-section {
@@ -62,6 +63,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #F7D6E0;
+    font: 20px arial, sans-serif;
 }
 
 .work-section {
@@ -69,6 +71,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #ffffff;
+    font: 20px arial, sans-serif;
 }
 
 .certification-section {
@@ -76,6 +79,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #F7D6E0;
+    font: 20px arial, sans-serif;
 }
 
 /*Intro section */ 
