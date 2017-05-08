@@ -54,28 +54,28 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background-image: url("quartz.png");
+    background-image: url("cityscape.png");
 }
 
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #ffffff;
+    background: #F7D6E0;
 }
 
 .work-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #F7D6E0;
+    background: #ffffff;
 }
 
 .certification-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #ffffff;
+    background: #F7D6E0;
 }
 
 /*Intro section */ 
