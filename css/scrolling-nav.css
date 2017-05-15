@@ -54,7 +54,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background-image: url("planephoto.png");
+    background: #9882ac;
     font: 20px arial, sans-serif, "white";
 }
 
@@ -62,7 +62,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #F7D6E0;
+    background: #d1d5de;
     font: 20px arial, sans-serif;
 }
 
@@ -70,16 +70,16 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #ffffff;
-    font: 20px arial, sans-serif, "white";
+    background: #9882ac;
+    font: 20px arial, sans-serif;
 }
 
 .certification-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #F7D6E0;
-    font: 20px arial, sans-serif, "white";
+    background: #d1d5de;
+    font: 20px arial, sans-serif;
 }
 
 /*Intro section */ 
