@@ -143,3 +143,10 @@ of those sections to manage the look and feel of the site. */
     min-width: 30px;
     height: auto;
 }
+
+.container { 
+	display: center; 
+	margin: auto; 
+	padding: 5px; 
+} 
+	
