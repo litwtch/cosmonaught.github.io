@@ -54,7 +54,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #9882ac;
+    background: #D6BBC0;
     font: 20px arial, sans-serif, "white";
 }
 
@@ -70,7 +70,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #9882ac;
+    background: #D6BBC0;
     font: 20px arial, sans-serif;
 }
 
@@ -94,7 +94,7 @@ of those sections to manage the look and feel of the site. */
 /*profile image*/
 .profile{
 	width: 30%;
-    min-width: 200px;
+    	min-width: 200px;
 	height: auto;
 	display: block;
 	margin: auto;
@@ -109,8 +109,13 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
+/*Grace Hopper Photo*/
+
 .about-pic {
      width: 80%;
+     height: auto;
+     display: block;
+     margin: auto;
 }
 
 /* social media */ 
