@@ -74,7 +74,7 @@ of those sections to manage the look and feel of the site. */
     font: 20px arial, sans-serif;
 }
 
-.certification-section {
+.blog-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -145,7 +145,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .container { 
-	display: center; 
+	display: block; 
 	margin: auto; 
 	padding: 5px; 
 } 
