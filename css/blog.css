@@ -14,13 +14,13 @@ html {
 
 
 #papers li {
-    display: inline;
+    display: block;
     padding: 5px;
     margin: auto;
 }
 
 #topics li { 
-    display: inline; 
+    display: block; 
     padding: 5px; 
     margin: auto; 
 }
