@@ -45,10 +45,6 @@ of those sections to manage the look and feel of the site. */
     background-color: #0B132B;
 }
 
-#blog-btn:hover {
-    background-color: #0B132B;
-}
-
 
 .intro-section {
     height: 100%;
@@ -71,14 +67,6 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #BCD8B7;
-    font: 20px arial, sans-serif;
-}
-
-.blog-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #d1d5de;
     font: 20px arial, sans-serif;
 }
 
