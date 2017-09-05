@@ -1,142 +1,305 @@
+
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="personal blog">
-    <meta name="author" content="cosmonaught">
+<!-- Page Container -->
 
-    <title> Policy, Privacy, Security </title>
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- The Grid -->
 
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+  <div class="w3-row-padding">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+ 
+    <!-- Left Column -->
 
-</head>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#work">My Work</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <div class="w3-third">
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="/images/profile2.png" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Lauren Brennan</h2>
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
+        
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Student</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Raleigh, NC</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>lbrenna@ncsu.edu</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>19198307081</p>
 
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class = "profile"  src="images/profile2.png" alt="profile picture"/>
-                    <h1 class = "header">Lauren B</h1>
-                    <h4 class = "quote"> Privacy - Policy - Security </h4>
-                       <ul id="social">
-                                <li><a href="mailto:cosmonaught@protonmail.com"><img class="icon" src="images/mail.png"></a></li>
-                                <li><a href="http://linkedin.com/in/cosmonaught" target="_blank"><img class="icon" src="images/linkedin.png"></a></li>
-                                <li><a href="http://twitter.com/cosmo_naught" target="_blank"><img class="icon" src="images/twitter.png"></a></li>
-                                <li><a href="http://github.com/cosmonaught" target="_blank"><img class="icon" src="images/github.png"></a></li>
-                                <li><a href="images/BrennanResume.png" target="_blank" ><img class="icon" src= "images/resume.png"></a></li>
-                            </ul>
-                    <a class="btn btn-default page-scroll" href="#about"> Learn More </a>
-                </div>
-            </div>
-        </div>
-    </section>
+          <hr>
+         
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>About</b></p>
+          <p> December 2017 graduate of North Carolina State University with a degree in Political Science - concentration in International Politics - and a focus on Information and Computer Security Policy. Experienced in social media, computer security fundamentals, policy analysis, and internal security assessments. Passionate about information security and governance policy relating to regulatory environments. Familiar with most current information security regulatory framworks and best practices.</p>
+          
+          <hr>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1><b>About</b></h1>
-                    <br/>
-                    <div class="col-sm-4">
-                        <img class="about-pic" src="images/gracehopper.png" alt ="#ghs2016 grace hopper photo at the google booth">
-                    </div>
-                    <div class="col-sm-8">
-                        <p style="text-align:left">
-                            December 2017 graduate of North Carolina State University with a degree in Political Science - concentration in International Politics - and a focus on Information and Computer Security Policy. Experienced in social media, computer security fundamentals, policy analysis, and internal security assessments. I completed my Associates in Science degree two weeks before high school graduation. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
 
-    <!-- Research Section -->
-    <section id="work" class="work-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1> My Work </h1>
-                     <div class="col-lg-12">
-                       <p style ="text-align:left"> 
-                       I currently hold the <a href ="https://www.certmetrics.com/comptia/public/verification.aspx?code=P80PBYMMKCF11PTB" target="_blank">CompTIA Security+ Certification</a>, the Mobile Device Fundamentals Certification, and Web Application Security Fundamentals Certification from the security learning site <a hfref="https://www.Cybrary.it" target="_blank"> Cybrary</a>.</p>
-                         <br/>
-                    <p style="text-align: left">
-                        As a student, I do a lot of research in multiple areas, but I try to focus my reasearch on the areas of Intelligence and Computer Security policy. You can check out my research papers and current work <a href ="blog.html">here</a> and my other blog <a href ="https://www.femmetek.net">here</a> . </p>
-                         <br/>
-                         <p style ="text-align:left"> You can check out the code for this website on my github <a href = "https://github.com/cosmonaught/cosmonaught.github.io">here</a> (continually updated weekly/biweekly when I have time).</p>
-                     <br/> 
-                         </div> 
-                </div>
+          <p>Policy Analysis</p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
+
+          </div>
+
+          <p>HTML/CSS Programming</p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">
+
+              <div class="w3-center w3-text-white">85%</div>
+
             </div>
+
+          </div>
+
+          <p>Social Media</p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+
+          </div>
+
+          <p>Research and Reporting</p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+
+          </div>
+
+    	<p> Copy Editing </p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+
+          </div>
+          
+          <p> Public Speaking </p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+
+          </div>
+          
+          <p> Visual Presentations </p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
+
+          </div>
+          
+          <p> Strategic Planning </p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
+
+          </div>
+          
+          <p> OSINT Analysis </p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+
+          </div>
+          
+          <p> English Langauge </p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div>
+
+          </div>
+          
+          <p> Spanish Language </p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:55%">55%</div>
+
+          </div>
+          
+          <p> Java Programming </p>
+
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+
+          </div>
+          
+          <br>
+          <br>
         </div>
-    </section>
+      </div><br>
+
+    <!-- End Left Column -->
+
+    </div>
+
+
+
+    <!-- Right Column -->
+
+    <div class="w3-twothird">
+
+
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+
+        <div class="w3-container">
+
+          <h5 class="w3-opacity"><b>Risk Analyst Intern / Visa Inc.</b></h5>
+
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> May 2017 - August 2017 </i></h6>
+
+          <p>Worked in both the Foster City, CA (USA) and London, UK offices to facilitate internal security assessments and develop content for executive board management and risk oversight committees.</p>
+
+          <hr>
+
+        </div>
+
+        <div class="w3-container">
+
+          <h5 class="w3-opacity"><b>Content Intern / Demand Signals Inc.</b></h5>
+
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016 - August 2016 </h6>
+
+          <p>Assisted in writing both long and short form content for companies with a focus on Search Engine Optimization, troubleshot issues with HTML and CSS code within webpages, developed and deployed social media strategies.</p>
+
+          <hr>
+
+        </div>
+
+        <div class="w3-container">
+
+          <h5 class="w3-opacity"><b> Social Media and IT Intern / WISE Village at NC State University</b></h5>
+
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2015 - Jan 2017</i></h6>
+
+          <p>Rebuilt the WISE Website, consulted on social media, set up social media accounts, implemented a social media plan for WISE. Helped troubleshoot issues with content and accessibility.</p>
+          <br>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="w3-container w3-card-2 w3-white">
+
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+
+        <div class="w3-container">
+
+          <h5 class="w3-opacity"><b>North Carolina State University</b></h5>
+
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Aug 2015 - Dec 2017</h6>
+
+          <p>Political Science - International Politics Concentration. GPA: 3.59/3.36</p>
+
+          <hr>
+
+        </div>
+
+        <div class="w3-container">
+
+          <h5 class="w3-opacity"><b>Durham Technical Community College</b></h5>
+
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+
+          <p>Associates Degree in Science completed two weeks before high school graduation. </p>
+
+          <hr>
+
+        </div>
+        
+	</div>
+	<br>
+	
+  <div class="w3-container w3-card-2 w3-white">
+
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Certifications</h2>
+        
+        <div class="w3-container">
+
+          <h5 class="w3-opacity"><b>CompTIA Security+ Certification</b></h5>
+
+          <p>Verification Code: P80PBYMMKCF11PTB </p><br>
+
+          <h5 class="w3-opacity"><b>Cybrary.it Micro Certifications</b></h5>
+          
+          <p> Currently certified in: Mobile Device Security Fundamentals; Web Application Security  CompliaFundamentals; PCI DSS Compliance.</p>
+          <p> Currently working to complete the following micro-certifications: Security Assessment & Testing; Organizational Data Security; Incident Management; IT Governance and Management. </p>
+          
+          <br>
+        </div>
+
+      </div>
+
+
+
+    <!-- End Right Column -->
+
+    </div>
+
+    
+
+  <!-- End Grid -->
+
+  </div>
 
   
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+  <!-- End Page Container -->
 
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+</div>
+
+
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+
+  <p>Find me on social media.</p>
+
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+
+  <i class="fa fa-linkedin w3-hover-opacity"><a href ="www.linkedin.com/in/cosmonaught"></a></i>
+
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+</footer>
+
+
 
 </body>
 
 </html>
-
